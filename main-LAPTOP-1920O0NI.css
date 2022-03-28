@@ -1,0 +1,22 @@
+/*----------------------------------- Global ----------------------------------------------------*/
+
+
+
+/*------------------------------------ Header ----------------------------------------------------*/
+.header-complete-bar{
+    display: flex;
+}
+.social{
+    margin-left:87%;
+}
+.site-title{
+    font-size:35px;
+    font-family: Archivo;
+    font-weight: bold;
+}
+.site-title a{
+    text-decoration:none;
+}
+
+
+

@@ -1,0 +1,188 @@
+/*----------------------------------- Global ----------------------------------------------------*/
+body{
+    background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F38%2F2021%2F11%2F09%2Fnew-years-celebrate-woman-EiXoXBOwaoZAFNhto8bq__.jpg");
+    width:100%;
+    height: 1150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: sticky;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: rgb(218, 225, 255);
+}
+
+
+/*------------------------------------ Header ----------------------------------------------------*/
+.header-complete-bar{
+    display: flex;
+    z-index: 2;
+}
+.social{
+    margin-left:79%;
+    margin-top:2%;
+    position: sticky;
+    margin-right: 0px;
+    padding-right:0px;
+}
+.site-title{
+    font-size:38px;
+    font-family: "Archivo";
+    font-weight: bold;
+    margin:2%;
+}
+.site-title a{
+    text-decoration:none;
+    color: white;
+}
+/*------------------------------ Body ------------------------------*/
+.big-text{
+    margin-top: 400px;
+    margin-left: 15p2;
+    color: white;
+    font-size:9.4em;
+    font-family: "Archivo";
+    text-align: center;
+}
+.small-text{
+    margin-left:0%;
+    color: white;
+    font-size: 1.7em;
+    text-align: center;
+    font-family: "Archivo";
+}
+.button{
+    border: 2px solid rgb(219, 158, 66);
+    padding: 15px 30px;
+    color:rgb(219, 158, 66);
+    cursor: pointer;
+    margin-left:45%;
+    display: inline-block;
+    text-align: center;
+    background-color: transparent;
+    overflow: none;
+    font-weight: bold;
+    font-size:14px;
+    text-align: center;
+}
+.button:hover{
+    background-color:rgb(219, 158, 66);
+    color:black;
+    font-weight: bold;
+    font-size:14px;
+}
+.big-text .small-text{
+    text-align-last: center;
+}
+
+
+/* ============================================= 1/2 =========================================*/
+.left-image img{
+    width: 40%;
+    height: 50%;
+    margin-top: 260px;
+    margin-left:100px;
+    overflow: hidden;
+}
+.one-two{
+    float: left;
+    margin-left:15%;
+    margin-top: 23%;
+    font-family: "Archivo";
+}
+figure{
+    display: flex;
+}
+.one-two h2{
+    font-size:5.6em;
+    font-family: "Archivo";
+}
+.one-two h4{
+    font-size:1.9em;
+    font-family: "Archivo";
+}
+
+/*------------------------------------------- 2/2 ----------------------------------------------------------------*/
+.right-image img{
+    width: 40%;
+    height: 50%;
+    margin-top: 260px;
+    margin-right: 100px;
+}
+.two-two{
+    margin-right:15%;
+    margin-top: 23%;
+    font-family: "Archivo";
+}
+.right-image  {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.two-two h2{
+    font-size:5em;
+    font-family: "Archivo";
+}
+.two-two h4{
+    font-size:1.7em;
+    font-family: "Archivo";
+}
+
+/*------------------------------------------------------------------- Bottom ------------------------------------------------------------*/
+.RS{
+    font-size:9em;
+    font-family: "Archivo";
+    margin-left: 4%;
+}
+.bottom{
+    font-size:1.1em;
+    font-family: "Archivo";
+    text-align: center;
+}
+#btn{
+    border: 2px solid rgb(3, 3, 3);
+    padding: 15px 30px;
+    color:rgb(5, 5, 5);
+    cursor: pointer;
+    margin-left:45%;
+    display: inline-block;
+    text-align: center;
+    background-color: transparent;
+    overflow: none;
+    font-weight: bold;
+    font-size:14px;
+    text-align: center;
+}
+#btn:hover{
+    background-color:rgb(7, 7, 7);
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size:14px;
+}
+.VP{
+    font-size:9em;
+    font-family: "Archivo";
+    margin-left: 80%;
+}
+#footer{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Archivo";
+    font-size:30px;
+}
+#end{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Archivo";
+    font-size:12px;
+    padding-bottom:2%;
+}
+#end a{
+    color:black;
+    text-decoration:none;
+}
+#end a:hover{
+    color:rgb(212, 1, 1);
+}
+
+
+
